@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yrA-um-Fca">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pocket-wingman-launch-image-1536x2048.png" translatesAutoresizingMaskIntoConstraints="NO" id="qRl-Zn-nnG">
+                            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="qRl-Zn-nnG" firstAttribute="leading" secondItem="yrA-um-Fca" secondAttribute="leading" id="EwY-ZW-xAr"/>
+                        <constraint firstItem="qRl-Zn-nnG" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yrA-um-Fca" secondAttribute="top" constant="-1" id="PBA-oI-bPX"/>
+                        <constraint firstAttribute="bottom" secondItem="qRl-Zn-nnG" secondAttribute="bottom" id="cK4-kz-cqM"/>
+                        <constraint firstItem="qRl-Zn-nnG" firstAttribute="top" secondItem="yrA-um-Fca" secondAttribute="top" id="cti-UN-p0H"/>
+                        <constraint firstAttribute="centerY" secondItem="qRl-Zn-nnG" secondAttribute="centerY" id="mNe-Tg-az5"/>
+                        <constraint firstAttribute="centerX" secondItem="qRl-Zn-nnG" secondAttribute="centerX" id="vEQ-eg-npp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yrA-um-Fca" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0OZ-Vg-C4o"/>
+                <constraint firstItem="yrA-um-Fca" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Edd-Hw-U59"/>
+                <constraint firstAttribute="bottom" secondItem="yrA-um-Fca" secondAttribute="bottom" id="NBD-Fg-VXK"/>
+                <constraint firstAttribute="trailing" secondItem="yrA-um-Fca" secondAttribute="trailing" id="iUp-BX-WqX"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pocket-wingman-launch-image-1536x2048.png" width="1536" height="2048"/>
+    </resources>
+</document>

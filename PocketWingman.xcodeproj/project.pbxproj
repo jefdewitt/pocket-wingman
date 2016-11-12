@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D0106E21B402CD4007D2012 /* TimerUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0106E11B402CD4007D2012 /* TimerUIApplication.m */; };
+		9D0106E71B4549B7007D2012 /* crying1242x2208.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D0106E31B4549B7007D2012 /* crying1242x2208.jpg */; };
+		9D0106E91B4549B7007D2012 /* mona-lisa1242x2208.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D0106E51B4549B7007D2012 /* mona-lisa1242x2208.jpg */; };
+		9D0106EA1B4549B7007D2012 /* surprised-rainbow-face1242x2208.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D0106E61B4549B7007D2012 /* surprised-rainbow-face1242x2208.jpg */; };
+		9D0106EE1B4A0EF5007D2012 /* thumbs-up1242x2208.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D0106ED1B4A0EF5007D2012 /* thumbs-up1242x2208.jpg */; };
+		9D0106F41B55FE82007D2012 /* wingman-launch-screen-ver2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0106F31B55FE82007D2012 /* wingman-launch-screen-ver2.png */; };
+		9D01071F1B58960E007D2012 /* the-pocket-wingman-logo-29px-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0107191B58960E007D2012 /* the-pocket-wingman-logo-29px-2x.png */; };
+		9D0107201B58960E007D2012 /* the-pocket-wingman-logo-29px-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D01071A1B58960E007D2012 /* the-pocket-wingman-logo-29px-3x.png */; };
+		9D0107211B58960E007D2012 /* the-pocket-wingman-logo-40px-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D01071B1B58960E007D2012 /* the-pocket-wingman-logo-40px-2x.png */; };
+		9D0107221B58960E007D2012 /* the-pocket-wingman-logo-40px-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D01071C1B58960E007D2012 /* the-pocket-wingman-logo-40px-3x.png */; };
+		9D0107231B58960E007D2012 /* the-pocket-wingman-logo-60px-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D01071D1B58960E007D2012 /* the-pocket-wingman-logo-60px-2x.png */; };
+		9D0107241B58960E007D2012 /* the-pocket-wingman-logo-60px-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D01071E1B58960E007D2012 /* the-pocket-wingman-logo-60px-3x.png */; };
+		9D1E7F571ABA237300F6E28D /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1E7F551ABA237300F6E28D /* Black.png */; };
+		9D1E7F581ABA237300F6E28D /* Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1E7F561ABA237300F6E28D /* Eraser.png */; };
+		9D1E7F5B1ABE541C00F6E28D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1E7F5A1ABE541C00F6E28D /* GameViewController.m */; };
+		9D1E7F6A1AC1BA0700F6E28D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1E7F691AC1BA0700F6E28D /* AddressBook.framework */; };
+		9D204EA91BCA017300304F31 /* are-you-kidding-me1242x2208.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D204EA81BCA017300304F31 /* are-you-kidding-me1242x2208.jpg */; settings = {ASSET_TAGS = (); }; };
+		9D37BDC31AB30928001B414B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D37BDC21AB30928001B414B /* main.m */; };
+		9D37BDC61AB30928001B414B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D37BDC51AB30928001B414B /* AppDelegate.m */; };
+		9D37BDC91AB30928001B414B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D37BDC81AB30928001B414B /* ViewController.m */; };
+		9D37BDCC1AB30928001B414B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D37BDCA1AB30928001B414B /* Main.storyboard */; };
+		9D37BDCE1AB30928001B414B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D37BDCD1AB30928001B414B /* Images.xcassets */; };
+		9D37BDD11AB30928001B414B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D37BDCF1AB30928001B414B /* LaunchScreen.xib */; };
+		9D37BDDD1AB30928001B414B /* ThePickupArtistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D37BDDC1AB30928001B414B /* ThePickupArtistTests.m */; };
+		9D37BDF41AB7A491001B414B /* DrawPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D37BDF31AB7A491001B414B /* DrawPadViewController.m */; };
+		9D3FB4831BB4DDA100123D43 /* smiley1242x2208.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D3FB4821BB4DDA100123D43 /* smiley1242x2208.jpg */; settings = {ASSET_TAGS = (); }; };
+		9D53692B1B2847CA001DC816 /* crying.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D53692A1B2847CA001DC816 /* crying.jpg */; };
+		9D53692D1B2847E0001DC816 /* Vincent-van-Gogh-Public-domain-Wikimedia-Commons.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9D53692C1B2847E0001DC816 /* Vincent-van-Gogh-Public-domain-Wikimedia-Commons.jpeg */; };
+		9DE45F8B1B5A81C80032D612 /* pocket-wingman-launch-image-320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE45F851B5A81C80032D612 /* pocket-wingman-launch-image-320x480.png */; };
+		9DE45F8C1B5A81C80032D612 /* pocket-wingman-launch-image-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE45F861B5A81C80032D612 /* pocket-wingman-launch-image-640x1136.png */; };
+		9DE45F8D1B5A81C80032D612 /* pocket-wingman-launch-image-750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE45F871B5A81C80032D612 /* pocket-wingman-launch-image-750x1334.png */; };
+		9DE45F8E1B5A81C80032D612 /* pocket-wingman-launch-image-768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE45F881B5A81C80032D612 /* pocket-wingman-launch-image-768x1024.png */; };
+		9DE45F8F1B5A81C80032D612 /* pocket-wingman-launch-image-960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE45F891B5A81C80032D612 /* pocket-wingman-launch-image-960x640.png */; };
+		9DE45F901B5A81C80032D612 /* pocket-wingman-launch-image-1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE45F8A1B5A81C80032D612 /* pocket-wingman-launch-image-1536x2048.png */; };
+		9DE45F921B5A848F0032D612 /* pocket-wingman-launch-image-1242x2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE45F911B5A848F0032D612 /* pocket-wingman-launch-image-1242x2208.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D37BDD71AB30928001B414B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D37BDB51AB30928001B414B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D37BDBC1AB30928001B414B;
+			remoteInfo = ThePickupArtist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D0106E01B402CD4007D2012 /* TimerUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TimerUIApplication.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9D0106E11B402CD4007D2012 /* TimerUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TimerUIApplication.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D0106E31B4549B7007D2012 /* crying1242x2208.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crying1242x2208.jpg; sourceTree = "<group>"; };
+		9D0106E51B4549B7007D2012 /* mona-lisa1242x2208.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mona-lisa1242x2208.jpg"; sourceTree = "<group>"; };
+		9D0106E61B4549B7007D2012 /* surprised-rainbow-face1242x2208.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "surprised-rainbow-face1242x2208.jpg"; sourceTree = "<group>"; };
+		9D0106ED1B4A0EF5007D2012 /* thumbs-up1242x2208.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumbs-up1242x2208.jpg"; sourceTree = "<group>"; };
+		9D0106F31B55FE82007D2012 /* wingman-launch-screen-ver2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wingman-launch-screen-ver2.png"; sourceTree = "<group>"; };
+		9D0107191B58960E007D2012 /* the-pocket-wingman-logo-29px-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the-pocket-wingman-logo-29px-2x.png"; sourceTree = "<group>"; };
+		9D01071A1B58960E007D2012 /* the-pocket-wingman-logo-29px-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the-pocket-wingman-logo-29px-3x.png"; sourceTree = "<group>"; };
+		9D01071B1B58960E007D2012 /* the-pocket-wingman-logo-40px-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the-pocket-wingman-logo-40px-2x.png"; sourceTree = "<group>"; };
+		9D01071C1B58960E007D2012 /* the-pocket-wingman-logo-40px-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the-pocket-wingman-logo-40px-3x.png"; sourceTree = "<group>"; };
+		9D01071D1B58960E007D2012 /* the-pocket-wingman-logo-60px-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the-pocket-wingman-logo-60px-2x.png"; sourceTree = "<group>"; };
+		9D01071E1B58960E007D2012 /* the-pocket-wingman-logo-60px-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the-pocket-wingman-logo-60px-3x.png"; sourceTree = "<group>"; };
+		9D1E7F551ABA237300F6E28D /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
+		9D1E7F561ABA237300F6E28D /* Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eraser.png; sourceTree = "<group>"; };
+		9D1E7F591ABE541C00F6E28D /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GameViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9D1E7F5A1ABE541C00F6E28D /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GameViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D1E7F691AC1BA0700F6E28D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		9D204EA81BCA017300304F31 /* are-you-kidding-me1242x2208.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "are-you-kidding-me1242x2208.jpg"; sourceTree = "<group>"; };
+		9D37BDBD1AB30928001B414B /* PocketWingman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketWingman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D37BDC11AB30928001B414B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D37BDC21AB30928001B414B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D37BDC41AB30928001B414B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9D37BDC51AB30928001B414B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D37BDC71AB30928001B414B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9D37BDC81AB30928001B414B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D37BDCB1AB30928001B414B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D37BDCD1AB30928001B414B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9D37BDD01AB30928001B414B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9D37BDD61AB30928001B414B /* ThePickupArtistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThePickupArtistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D37BDDB1AB30928001B414B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D37BDDC1AB30928001B414B /* ThePickupArtistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ThePickupArtistTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D37BDF21AB7A491001B414B /* DrawPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DrawPadViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		9D37BDF31AB7A491001B414B /* DrawPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DrawPadViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9D3FB4821BB4DDA100123D43 /* smiley1242x2208.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smiley1242x2208.jpg; sourceTree = "<group>"; };
+		9D53692A1B2847CA001DC816 /* crying.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crying.jpg; sourceTree = "<group>"; };
+		9D53692C1B2847E0001DC816 /* Vincent-van-Gogh-Public-domain-Wikimedia-Commons.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vincent-van-Gogh-Public-domain-Wikimedia-Commons.jpeg"; sourceTree = "<group>"; };
+		9DE45F851B5A81C80032D612 /* pocket-wingman-launch-image-320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pocket-wingman-launch-image-320x480.png"; sourceTree = "<group>"; };
+		9DE45F861B5A81C80032D612 /* pocket-wingman-launch-image-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pocket-wingman-launch-image-640x1136.png"; sourceTree = "<group>"; };
+		9DE45F871B5A81C80032D612 /* pocket-wingman-launch-image-750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pocket-wingman-launch-image-750x1334.png"; sourceTree = "<group>"; };
+		9DE45F881B5A81C80032D612 /* pocket-wingman-launch-image-768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pocket-wingman-launch-image-768x1024.png"; sourceTree = "<group>"; };
+		9DE45F891B5A81C80032D612 /* pocket-wingman-launch-image-960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pocket-wingman-launch-image-960x640.png"; sourceTree = "<group>"; };
+		9DE45F8A1B5A81C80032D612 /* pocket-wingman-launch-image-1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pocket-wingman-launch-image-1536x2048.png"; sourceTree = "<group>"; };
+		9DE45F911B5A848F0032D612 /* pocket-wingman-launch-image-1242x2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pocket-wingman-launch-image-1242x2208.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D37BDBA1AB30928001B414B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1E7F6A1AC1BA0700F6E28D /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D37BDD31AB30928001B414B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D37BDB41AB30928001B414B = {
+			isa = PBXGroup;
+			children = (
+				9D1E7F691AC1BA0700F6E28D /* AddressBook.framework */,
+				9D37BDBF1AB30928001B414B /* ThePickupArtist */,
+				9D37BDD91AB30928001B414B /* ThePickupArtistTests */,
+				9D37BDBE1AB30928001B414B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D37BDBE1AB30928001B414B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D37BDBD1AB30928001B414B /* PocketWingman.app */,
+				9D37BDD61AB30928001B414B /* ThePickupArtistTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D37BDBF1AB30928001B414B /* ThePickupArtist */ = {
+			isa = PBXGroup;
+			children = (
+				9D37BDC41AB30928001B414B /* AppDelegate.h */,
+				9D37BDC51AB30928001B414B /* AppDelegate.m */,
+				9D37BDC71AB30928001B414B /* ViewController.h */,
+				9D37BDC81AB30928001B414B /* ViewController.m */,
+				9D37BDF21AB7A491001B414B /* DrawPadViewController.h */,
+				9D37BDF31AB7A491001B414B /* DrawPadViewController.m */,
+				9D1E7F591ABE541C00F6E28D /* GameViewController.h */,
+				9D1E7F5A1ABE541C00F6E28D /* GameViewController.m */,
+				9D0106E01B402CD4007D2012 /* TimerUIApplication.h */,
+				9D0106E11B402CD4007D2012 /* TimerUIApplication.m */,
+				9D37BDCA1AB30928001B414B /* Main.storyboard */,
+				9D37BDCD1AB30928001B414B /* Images.xcassets */,
+				9D204EA81BCA017300304F31 /* are-you-kidding-me1242x2208.jpg */,
+				9D3FB4821BB4DDA100123D43 /* smiley1242x2208.jpg */,
+				9DE45F911B5A848F0032D612 /* pocket-wingman-launch-image-1242x2208.png */,
+				9DE45F851B5A81C80032D612 /* pocket-wingman-launch-image-320x480.png */,
+				9DE45F861B5A81C80032D612 /* pocket-wingman-launch-image-640x1136.png */,
+				9DE45F871B5A81C80032D612 /* pocket-wingman-launch-image-750x1334.png */,
+				9DE45F881B5A81C80032D612 /* pocket-wingman-launch-image-768x1024.png */,
+				9DE45F891B5A81C80032D612 /* pocket-wingman-launch-image-960x640.png */,
+				9DE45F8A1B5A81C80032D612 /* pocket-wingman-launch-image-1536x2048.png */,
+				9D0107191B58960E007D2012 /* the-pocket-wingman-logo-29px-2x.png */,
+				9D01071A1B58960E007D2012 /* the-pocket-wingman-logo-29px-3x.png */,
+				9D01071B1B58960E007D2012 /* the-pocket-wingman-logo-40px-2x.png */,
+				9D01071C1B58960E007D2012 /* the-pocket-wingman-logo-40px-3x.png */,
+				9D01071D1B58960E007D2012 /* the-pocket-wingman-logo-60px-2x.png */,
+				9D01071E1B58960E007D2012 /* the-pocket-wingman-logo-60px-3x.png */,
+				9D0106F31B55FE82007D2012 /* wingman-launch-screen-ver2.png */,
+				9D0106ED1B4A0EF5007D2012 /* thumbs-up1242x2208.jpg */,
+				9D0106E31B4549B7007D2012 /* crying1242x2208.jpg */,
+				9D0106E51B4549B7007D2012 /* mona-lisa1242x2208.jpg */,
+				9D0106E61B4549B7007D2012 /* surprised-rainbow-face1242x2208.jpg */,
+				9D53692C1B2847E0001DC816 /* Vincent-van-Gogh-Public-domain-Wikimedia-Commons.jpeg */,
+				9D53692A1B2847CA001DC816 /* crying.jpg */,
+				9D1E7F551ABA237300F6E28D /* Black.png */,
+				9D1E7F561ABA237300F6E28D /* Eraser.png */,
+				9D37BDCF1AB30928001B414B /* LaunchScreen.xib */,
+				9D37BDC01AB30928001B414B /* Supporting Files */,
+			);
+			path = ThePickupArtist;
+			sourceTree = "<group>";
+		};
+		9D37BDC01AB30928001B414B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D37BDC11AB30928001B414B /* Info.plist */,
+				9D37BDC21AB30928001B414B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D37BDD91AB30928001B414B /* ThePickupArtistTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D37BDDC1AB30928001B414B /* ThePickupArtistTests.m */,
+				9D37BDDA1AB30928001B414B /* Supporting Files */,
+			);
+			path = ThePickupArtistTests;
+			sourceTree = "<group>";
+		};
+		9D37BDDA1AB30928001B414B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D37BDDB1AB30928001B414B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D37BDBC1AB30928001B414B /* ThePickupArtist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D37BDE01AB30928001B414B /* Build configuration list for PBXNativeTarget "ThePickupArtist" */;
+			buildPhases = (
+				9D37BDB91AB30928001B414B /* Sources */,
+				9D37BDBA1AB30928001B414B /* Frameworks */,
+				9D37BDBB1AB30928001B414B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThePickupArtist;
+			productName = ThePickupArtist;
+			productReference = 9D37BDBD1AB30928001B414B /* PocketWingman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D37BDD51AB30928001B414B /* ThePickupArtistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D37BDE31AB30928001B414B /* Build configuration list for PBXNativeTarget "ThePickupArtistTests" */;
+			buildPhases = (
+				9D37BDD21AB30928001B414B /* Sources */,
+				9D37BDD31AB30928001B414B /* Frameworks */,
+				9D37BDD41AB30928001B414B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D37BDD81AB30928001B414B /* PBXTargetDependency */,
+			);
+			name = ThePickupArtistTests;
+			productName = ThePickupArtistTests;
+			productReference = 9D37BDD61AB30928001B414B /* ThePickupArtistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D37BDB51AB30928001B414B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jef DeWitt";
+				TargetAttributes = {
+					9D37BDBC1AB30928001B414B = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 589NTS9QS2;
+					};
+					9D37BDD51AB30928001B414B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 9D37BDBC1AB30928001B414B;
+					};
+				};
+			};
+			buildConfigurationList = 9D37BDB81AB30928001B414B /* Build configuration list for PBXProject "PocketWingman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D37BDB41AB30928001B414B;
+			productRefGroup = 9D37BDBE1AB30928001B414B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D37BDBC1AB30928001B414B /* ThePickupArtist */,
+				9D37BDD51AB30928001B414B /* ThePickupArtistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D37BDBB1AB30928001B414B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE45F8D1B5A81C80032D612 /* pocket-wingman-launch-image-750x1334.png in Resources */,
+				9D0106EE1B4A0EF5007D2012 /* thumbs-up1242x2208.jpg in Resources */,
+				9D0106EA1B4549B7007D2012 /* surprised-rainbow-face1242x2208.jpg in Resources */,
+				9D37BDCC1AB30928001B414B /* Main.storyboard in Resources */,
+				9DE45F921B5A848F0032D612 /* pocket-wingman-launch-image-1242x2208.png in Resources */,
+				9D0107241B58960E007D2012 /* the-pocket-wingman-logo-60px-3x.png in Resources */,
+				9DE45F8F1B5A81C80032D612 /* pocket-wingman-launch-image-960x640.png in Resources */,
+				9D0106E91B4549B7007D2012 /* mona-lisa1242x2208.jpg in Resources */,
+				9DE45F8E1B5A81C80032D612 /* pocket-wingman-launch-image-768x1024.png in Resources */,
+				9D0107211B58960E007D2012 /* the-pocket-wingman-logo-40px-2x.png in Resources */,
+				9DE45F8B1B5A81C80032D612 /* pocket-wingman-launch-image-320x480.png in Resources */,
+				9D204EA91BCA017300304F31 /* are-you-kidding-me1242x2208.jpg in Resources */,
+				9D01071F1B58960E007D2012 /* the-pocket-wingman-logo-29px-2x.png in Resources */,
+				9D0106E71B4549B7007D2012 /* crying1242x2208.jpg in Resources */,
+				9D0106F41B55FE82007D2012 /* wingman-launch-screen-ver2.png in Resources */,
+				9D1E7F571ABA237300F6E28D /* Black.png in Resources */,
+				9D53692B1B2847CA001DC816 /* crying.jpg in Resources */,
+				9D53692D1B2847E0001DC816 /* Vincent-van-Gogh-Public-domain-Wikimedia-Commons.jpeg in Resources */,
+				9DE45F8C1B5A81C80032D612 /* pocket-wingman-launch-image-640x1136.png in Resources */,
+				9D37BDD11AB30928001B414B /* LaunchScreen.xib in Resources */,
+				9DE45F901B5A81C80032D612 /* pocket-wingman-launch-image-1536x2048.png in Resources */,
+				9D0107231B58960E007D2012 /* the-pocket-wingman-logo-60px-2x.png in Resources */,
+				9D37BDCE1AB30928001B414B /* Images.xcassets in Resources */,
+				9D0107201B58960E007D2012 /* the-pocket-wingman-logo-29px-3x.png in Resources */,
+				9D1E7F581ABA237300F6E28D /* Eraser.png in Resources */,
+				9D3FB4831BB4DDA100123D43 /* smiley1242x2208.jpg in Resources */,
+				9D0107221B58960E007D2012 /* the-pocket-wingman-logo-40px-3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D37BDD41AB30928001B414B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D37BDB91AB30928001B414B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1E7F5B1ABE541C00F6E28D /* GameViewController.m in Sources */,
+				9D37BDF41AB7A491001B414B /* DrawPadViewController.m in Sources */,
+				9D37BDC91AB30928001B414B /* ViewController.m in Sources */,
+				9D37BDC61AB30928001B414B /* AppDelegate.m in Sources */,
+				9D0106E21B402CD4007D2012 /* TimerUIApplication.m in Sources */,
+				9D37BDC31AB30928001B414B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D37BDD21AB30928001B414B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D37BDDD1AB30928001B414B /* ThePickupArtistTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D37BDD81AB30928001B414B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D37BDBC1AB30928001B414B /* ThePickupArtist */;
+			targetProxy = 9D37BDD71AB30928001B414B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D37BDCA1AB30928001B414B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D37BDCB1AB30928001B414B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D37BDCF1AB30928001B414B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D37BDD01AB30928001B414B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D37BDDE1AB30928001B414B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D37BDDF1AB30928001B414B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D37BDE11AB30928001B414B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ThePickupArtist/Info.plist;
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jefdewitt.pocketwingman;
+				PRODUCT_NAME = PocketWingman;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		9D37BDE21AB30928001B414B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ThePickupArtist/Info.plist;
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jefdewitt.pocketwingman;
+				PRODUCT_NAME = PocketWingman;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		9D37BDE41AB30928001B414B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThePickupArtistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jefdewitt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThePickupArtist.app/ThePickupArtist";
+			};
+			name = Debug;
+		};
+		9D37BDE51AB30928001B414B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThePickupArtistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jefdewitt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThePickupArtist.app/ThePickupArtist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D37BDB81AB30928001B414B /* Build configuration list for PBXProject "PocketWingman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D37BDDE1AB30928001B414B /* Debug */,
+				9D37BDDF1AB30928001B414B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D37BDE01AB30928001B414B /* Build configuration list for PBXNativeTarget "ThePickupArtist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D37BDE11AB30928001B414B /* Debug */,
+				9D37BDE21AB30928001B414B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D37BDE31AB30928001B414B /* Build configuration list for PBXNativeTarget "ThePickupArtistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D37BDE41AB30928001B414B /* Debug */,
+				9D37BDE51AB30928001B414B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D37BDB51AB30928001B414B /* Project object */;
+}
