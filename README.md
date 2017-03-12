@@ -12,7 +12,7 @@ To get a copy of the app just visit [Pocket Wingman]() at the App Store.
 
 # Installation
 
-Download [Xcode]() from the App Store.
+Download [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) from the App Store.
 
 ## Details
 
@@ -26,7 +26,7 @@ Pocket Wingman is an SPA with three distinct views. Admittedly, she's my first s
 
 ## Screenshot
 
-![Gravesarchitects.com screenshot](https://raw.github.com/jefdewitt/graves_wordress/master/gravesarchitects-website.png?raw=true "Gravesarchitects.com screenshot")
+![Pocket Wingman App Images](https://raw.github.com/jefdewitt/graves_wordress/master/Pocket-Wingman-App-Images.png?raw=true "Pocket Wingman App Images")
 
 ## Comments
 
