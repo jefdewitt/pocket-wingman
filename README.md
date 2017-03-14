@@ -6,9 +6,7 @@ To get a copy of the app just visit [Pocket Wingman]() at the App Store.
 
 # Requirements
 
-- Xcode
-- Xcode Objective-C SDK
-- Any dependencies list them here
+- Xcode 6+
 
 # Installation
 
@@ -26,7 +24,7 @@ Pocket Wingman is an SPA with three distinct views. Admittedly, she's my first s
 
 ## Screenshot
 
-![Pocket Wingman App Images](https://raw.github.com/jefdewitt/graves_wordress/master/Pocket-Wingman-App-Images.png?raw=true "Pocket Wingman App Images")
+![Pocket Wingman App Images](/pocket-wingman-project-banner-narrow.jpg?raw=true "Pocket Wingman App Images")
 
 ## Comments
 
