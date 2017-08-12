@@ -24,24 +24,23 @@
     self.instructions = [[NSArray alloc] initWithObjects:
                         @"Hey, do me a favor and press my button.",
                         @"All right, give me a shake.",
-                        @"Thanks, I needed that.  How about a pinch?",
+                        @"Thanks, I needed that. How about a pinch?",
                         @"OUCH!",
-                        @"Let's try something less painful.  Swipe my button below.", // end first view
+                        @"Let's try something less painful. Swipe my button below.", // end first view
                          
-                        @"Will you finish a drawing for me?  It's connect the dots.",
-                         
+                        @"Will you finish a drawing for me? It's connect the dots.",
                         @"Coz I don't have any fingers.",
-                         
-                        @"Great!  Tap the pencil to start.  Tap the eraser to start over.",
-                        @"Oh, c'mon.  Just give it a shot.  Touch the pencil to start.",
+                        @"Great!  Tap the pencil to start. Tap the eraser to start over.",
+                        @"Oh, c'mon.  Just give it a shot. Touch the pencil to start.",
                         @"Hmm, lemme see...",
                         @"Whoa...",
                         @"It's so beautiful!",  // end second view
-                        @"Hang on a sec.  I wanna show you a trick.",
-                        @"Pick one of these numbers and I'll try to guess it.  I won't look, I promise.",
-                        @"Okay, just a moment here.  I need time to think...",
+                         
+                        @"Hang on a sec. I wanna show you a trick.",
+                        @"Pick one of these numbers and I'll try to guess it. I won't look, I promise.",
+                        @"Okay, just a moment here. I need time to think...",
                         @"Whoa, really???",
-                        @"Haha!  I'm good!",
+                        @"Haha! I'm good!",
                         @"Well, I guess I'm not so good at guessing numbers.",
                         @"How about you just give me yours?",
                         @"Let's try again.  Pick a new number.",

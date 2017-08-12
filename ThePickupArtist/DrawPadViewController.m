@@ -59,6 +59,7 @@
         mouseSwiped = NO;
         UITouch *touch = [touches anyObject];
         lastPoint = [touch locationInView:self.view];
+        [[self view] endEditing:TRUE];
     
 }
 

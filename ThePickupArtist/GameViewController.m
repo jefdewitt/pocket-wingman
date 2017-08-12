@@ -220,7 +220,7 @@
     dispatch_async(dispatch_get_main_queue(), ^{
        
     
-    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Dang it Doug!"
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Ah Dang!"
                                                                    message:@"Permission has been denied.  Numbers cannot be saved until the app settings have been changed.\
                                                                        Go to: Settings > Wingman"
                                                             preferredStyle:UIAlertControllerStyleAlert];
@@ -309,6 +309,12 @@
     [self.textFieldTwo resignFirstResponder];
     
     return YES;
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+
+    [[self view] endEditing:TRUE];
+    
 }
 
 @end
